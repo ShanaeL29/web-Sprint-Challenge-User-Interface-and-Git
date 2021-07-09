@@ -34,23 +34,31 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-
+    Semantic HTML are elements that give meaning to the content of the document. They help people who may need to use screen readers understand what the content on the page is. 
+    They help with SEO as web crawlers search the site. Non-semantic HTML is moreso used for styling. 
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-
+    display: block will not allow any other elements to occupy the space next to it unless forced to do so. They disrupt the flow and force other elements to a new line. There is
+            whitespace above and below. 
+    display: inline contents display inline with the block they are already in on the same line with the other content next to it. Other elements can be on either side horizontally. 
+            No width and height can be set
 
 3. What are the 4 areas of the box model?
 
-
+    The 4 areas of the box model are content, padding, border, and margin. The padding surrounds the content and can give it space away from its border (between the content and the 
+    border). The border is the box the content sits in separated from the content by padding. The margin is the area outside of the elements box that gives extra space around the
+    element that other elements respect.
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
-
+    Align-items: center works on the cross-axis. When the flex-direction is set to the default of row, the cross-axis is the vertical axis and when the flex-direction is set to
+    column then the cross-axis is the horizontal axis.
 
 5. Explain why git is valuable to a team of developers.
 
-
+    It saves changes to code history and tracks the changes as well as who made what changes. It allows the team to work on a project and compare and make changes. 
+    It also allow for you to be able to go back to old versions for whatever the reason may be.
 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
@@ -65,7 +73,7 @@ You are expected to be able to answer all these questions. Your responses contri
  
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [check] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 
 
 
@@ -100,7 +108,7 @@ You will also notice there are 10 boxes on the home page that need background co
 * [check] Copy and paste your home page navigation and header into the about page
 * [check] Update the header image with the about page image
 * [check] Link the `Home` navigation item back to the `index.html` page.
-* [ ] Build the rest of the about page layout to match the design
+* [check] Build the rest of the about page layout to match the design
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
