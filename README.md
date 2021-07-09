@@ -25,7 +25,7 @@ In meeting the minimum viable product (MVP) specifications listed below, your we
 
 [Click here for the about page example](https://tk-assets.lambdaschool.com/ede1bb1a-63ff-4801-8c02-3efa2f603190_sprint-challenge-ui-about-example.png)
 
-## Self-Study Questions 
+## Self-Study Questions
 ### (please edit this file and write your answer below each question. In addition, you may also review these questions with your mentor)
 
 Demonstrate your understanding of this week's concepts by answering the following free-form questions.
@@ -34,27 +34,46 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    Semantic HTML are elements that give meaning to the content of the document. They help people who may need to use screen readers understand what the content on the page is. 
+    They help with SEO as web crawlers search the site. Non-semantic HTML is moreso used for styling. 
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    display: block will not allow any other elements to occupy the space next to it unless forced to do so. They disrupt the flow and force other elements to a new line. There is
+            whitespace above and below. 
+    display: inline contents display inline with the block they are already in on the same line with the other content next to it. Other elements can be on either side horizontally. 
+            No width and height can be set
 
 3. What are the 4 areas of the box model?
 
+    The 4 areas of the box model are content, padding, border, and margin. The padding surrounds the content and can give it space away from its border (between the content and the 
+    border). The border is the box the content sits in separated from the content by padding. The margin is the area outside of the elements box that gives extra space around the
+    element that other elements respect.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+    Align-items: center works on the cross-axis. When the flex-direction is set to the default of row, the cross-axis is the vertical axis and when the flex-direction is set to
+    column then the cross-axis is the horizontal axis.
+
 5. Explain why git is valuable to a team of developers.
+
+    It saves changes to code history and tracks the changes as well as who made what changes. It allows the team to work on a project and compare and make changes. 
+    It also allow for you to be able to go back to old versions for whatever the reason may be.
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push -u origin `<firstName-lastName>`.
+- [check] Create a forked copy of this project.
+- [check] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [check] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [check] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [check] Push commits: git push -u origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [check] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 
 
 
@@ -66,30 +85,30 @@ Your finished project must include all of the following requirements:
 
 [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.
 
-* [ ] Build the HTML and CSS to create the missing navigation and header.
-* [ ] Link the `About` navigation item to the [about.html](about.html) page
+* [check] Build the HTML and CSS to create the missing navigation and header.
+* [check] Link the `About` navigation item to the [about.html](about.html) page
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
-* [ ] box1: `teal`
-* [ ] box2: `gold`
-* [ ] box3: `cadetblue`
-* [ ] box4: `coral`
-* [ ] box5: `crimson`
-* [ ] box6: `forestgreen`
-* [ ] box7: `darkorchid`
-* [ ] box8: `hotpink`
-* [ ] box9: `indigo`
-* [ ] box10: `dodgerblue`
+* [check] box1: `teal`
+* [check] box2: `gold`
+* [check] box3: `cadetblue`
+* [check] box4: `coral`
+* [check] box5: `crimson`
+* [check] box6: `forestgreen`
+* [check] box7: `darkorchid`
+* [check] box8: `hotpink`
+* [check] box9: `indigo`
+* [check] box10: `dodgerblue`
 
 ### About Page
 
 [Review the provided design file for the about page](design-files/about.png). You have been provided the HTML wrapper, footer, and page content for the about page. Create the rest of the missing HTML and CSS to match the design file.
 
-* [ ] Copy and paste your home page navigation and header into the about page
-* [ ] Update the header image with the about page image
-* [ ] Link the `Home` navigation item back to the `index.html` page.
-* [ ] Build the rest of the about page layout to match the design
+* [check] Copy and paste your home page navigation and header into the about page
+* [check] Update the header image with the about page image
+* [check] Link the `Home` navigation item back to the `index.html` page.
+* [check] Build the rest of the about page layout to match the design
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
